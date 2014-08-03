@@ -1,0 +1,16 @@
+{
+	"manifest_version":2,
+
+	"name":"test",
+	"description":"我的第一个入门例子",
+	"version":"1.0",
+
+	"permissions":[
+		"http://www.plant.csdb.cn/"
+	],
+
+	"browser_action":{
+		"default_icon":"img/icon_16.png",
+		"default_popup":"popup.html"
+	}
+}
